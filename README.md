@@ -1,8 +1,8 @@
-# Fictional Company Landing Page
+# TechNova Solutions Landing Page
 
 ## Overview
 
-This project is a responsive landing page for a fictional company. It showcases the use of CSS animations and media queries to provide a seamless user experience across various device sizes. The landing page includes a navigation bar, header, multiple content sections, and a footer.
+This project is a responsive landing page for a TechNova Solutions. It showcases the use of CSS animations and media queries to provide a seamless user experience across various device sizes. The landing page includes a navigation bar, header, multiple content sections, and a footer.
 
 ## Design Choices
 
@@ -30,11 +30,11 @@ This project is a responsive landing page for a fictional company. It showcases 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/fictional-company-landing-page.git
+   git clone https://github.com/talvintawiahSectionA/assignement2.git
    ```
 2. **Navigate to the project directory**:
    ```bash
-   cd fictional-company-landing-page
+   cd assingment2
    ```
 3. **Open the `index.html` file in your web browser**.
 
@@ -50,4 +50,4 @@ This project is a responsive landing page for a fictional company. It showcases 
 
 ---
 
-&copy; 2024 Fictional Company. All rights reserved.
+&copy; 2024 TechNova Solutions. All rights reserved.
