@@ -1,0 +1,98 @@
+body {
+  font-family: monospace;
+  line-height: 1.6;
+}
+
+nav {
+  background: black;
+  color: snow;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: snow;
+  text-decoration: none;
+}
+
+header {
+  background: lightgray;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+footer {
+  background: black;
+  color: snow;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* this changes the color of a list item when it is being hovered by a mouse to orange */
+nav ul li a:hover {
+  color: orange;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Apply a fade-in animation to the <h1> element inside the <header> */
+header h1 {
+  /* Name of the animation is fadeIn, duration is 2 seconds, and the animation eases in and out */
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Define the keyframes for the fadeIn animation */
+@keyframes fadeIn {
+  /* Starting state: fully transparent */
+  from {
+    opacity: 0;
+  }
+  /* Ending state: fully opaque */
+  to {
+    opacity: 1;
+  }
+}
+
+/* Media Queries */
+
+/* Apply styles when the viewport width is 768px or less (tablet) */
+@media (max-width: 768px) {
+  nav ul {
+    /* This stacks navigation items vertically */
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
+
+/* Apply styles when the viewport width is 480px or less (mobile) */
+@media (max-width: 480px) {
+  header h1 {
+    /* Reduce font size of the <h1> element for smaller screens */
+    font-size: 1.5em;
+  }
+
+  section {
+    /* Reduce padding for all <section> elements to fit content better on small screens */
+    padding: 10px;
+  }
+}
